@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta content ="width=device-width, initial-scale=1" name ="viewport">
+        <title>About</title>
+        <link rel="stylesheet" href = "database.css">
+    </head>
+    <body>
+        <div class = "about-section">
+            <div class = "inner-container">
+                <h1>Despre baza de date</h1>
+                <p class = "text">
+                    Baza de date a site-ului contine utilizatorii site-ului, posibililele destinatii de excursii,hoitelurile la care se poate face rezervare si rezervarile pentru excursii respectiv hoteluri. 
+                   <br>Entitatile bazei de date:
+                   <br>Tabela "users" contine informatiile despre utilizatori (first name,last name,email,parola,username(PK),tip:admin/user)
+                   <br>Tabela "hotels" contine informatiile despre hotelurile la care se poate efectua o rezervare (numele hotelului(PK), numarul de stele, camerele si tipul acestora)
+                   <br>Tabela "reservation_hotel" contine informatiile despre rezervarile facute de utilizatori (id(PK), data rezervarii,numarul de zile,pretul total,tipul de camera,username utilizator)
+                   <br>Tabela "excursie" contine informatiile despre posibilele destinatii de excursii oferite de Travelix (locatia(PK), numarul de locuri,pretul,nr de zile)
+                   <br>Tabela "reservation_excursie" contine informatiile despre rezervarile facute de utilizatori pentru excursii(username utilizator(PK),id,locatie,numarul de persoane,pretul,data excursiei)
+                   <br>
+                   <br><i>Precizari:</i>
+                   <br><i>#nume este PK pentru tabela "hotel" deoarece nu exista doua hoteluri cu acelasi nume in oferta</i>
+                   <br><i>#country este PK pentru tabela "excursie" deoarece nu exista doua excursii de tipuri diferite organizate in aceasi locatie</i>
+                   <br><i>#username este PK penmtru tabela "users" deoarece nu exista utilizatori cu acelasi username</i>
+                   <br><i>campul "type" din tabelul "users" dechide tipul de permisiuni pe care acestia il au pe site(user este valoarea implicita la creeare conturilor)</i>
+                
+                    
+
+                </p>
+            </div>
+        </div>
+
+    </body>
+</html>
