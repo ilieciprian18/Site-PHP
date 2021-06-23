@@ -5,10 +5,24 @@ In intermediul site-ului exista doua categorii de useri:
 
 ### Utilizator
  - isi poate creea cont
+ - poate creea o rezervare la un hotel
+ - poate creea o rezervare intr-o excursie
+ - se poate loga pe site
+ - poate sa isi vada datele contului la profil
+ - poate vizualiza termenii si conditiile agentiei 
+ - poate completa un formular de contact (in urma caruia un mail cu formularul completat este trimis automat catre adresa de email a companiei)
+ - poate cere dovada rezervarii (din tabil profile) in urma caruia o si poate downloada in format pdf
 
 ### Administrator
+ - se poate loga pe site
+ - are acces la admin control pannel (in loc de profile)
+ - are aceleasi beneficii ca utilizatorii
+ - nu se pot creea conturi de administratori decat direct din baza de date, acestea find creeate doar pentru angajatii firmei
 
-De asemenea site-ul este https si contine o serie de optimizari de securitate.
+Utilizatorii nelogati pot accesta termenii si conditiile si de asemenea informatiile despre proiect ( front page, colt dreapta jos, click pe simbolul de share)\
+Pentru ca o parola sa fie acceptata aceatsa trebuie sa respecte anumite criterii(de asemenea parolele sunt criptate).\
+De asemenea site-ul este https si contine o serie de optimizari de securitate.\
+_In general codul contine comentarii sugestive_
 
 ## Cerinte Proiect 
 
