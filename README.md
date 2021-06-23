@@ -6,3 +6,5 @@ In intermediul site-ului exista doua categorii de useri:
 ### Utilizator
 
 ### Administrator
+
+## Cerinte Proiect 
